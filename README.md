@@ -6,9 +6,9 @@ Can't write much right now as you can see :D
 
 <h2>3rd Party Libraries</h2>
 <ul>
-<list><b>Hilt:</b> For Dependency Injection</list>
-<li><b>Retrofit:</b> Will be added </li> 
-<li><b>GSON:</b> Will be added </li>
+<li><b>Hilt:</b> For Dependency Injection</li>
+<li><b>Retrofit:</b> Added for API Calls</li> 
+<li><b>GSON:</b> Added for Service Response Serialization </li>
 <li><b>Glide:</b> Will be added </li>
 <li><b>Mock:</b> Will be added</li>
 <li><b>SwipeRefreshLayout:</b> Will be added </li>
@@ -29,6 +29,7 @@ Can't write much right now as you can see :D
 
 <h2>Commit History</h2>
 <ul>
-<li><b>Last Commit:</b> README.md modified & jCenter() removed cause will for shut down soon & viewBinding and dataBinding enabled & kotlin-kapt applied & Hilt added for Dependency Injection & AppModule created for SingletonComponent(AppScopedDependencyInjection) & apiKey injected (for test right now)</li>
+<li><b>Last Commit:</b> README.md modified & apiKey added & Retrofit implemented & ApiConstants added & Package name changes & ApiConstants created for much more simpler changes & AppModule for Dependency Injection & WeatherApi.kt interface created for Retrofit connection to direct API </li>
+<li><b>d098005:</b> README.md modified & jCenter() removed cause will for shut down soon & viewBinding and dataBinding enabled & kotlin-kapt applied & Hilt added for Dependency Injection & AppModule created for SingletonComponent(AppScopedDependencyInjection) & apiKey injected (for test right now)</li>
 <li><b>553cce7:</b> Initial Commit </li>
 </ul>

@@ -51,6 +51,9 @@ dependencies {
     implementation("com.google.dagger:hilt-android:$hilt_version")     //Hilt added for DependencyInjection
     kapt("com.google.dagger:hilt-android-compiler:$hilt_version")    //Hilt added for DependencyInjection
 
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version" //Retrofit added
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version" //GSON added
+
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
