@@ -29,7 +29,8 @@ Can't write much right now as you can see :D
 
 <h2>Commit History</h2>
 <ul>
-<li><b>Last Commit:</b> README.md modified & apiKey added & Retrofit implemented & ApiConstants added & Package name changes & ApiConstants created for much more simpler changes & AppModule for Dependency Injection & WeatherApi.kt interface created for Retrofit connection to direct API </li>
+<li><b>Last Commit:</b>Models added & WeatherApi interface created & ViewModel created & coroutines used to reach API  & Test API calls made & Static values for now (to test) </li>
+<li><b>00b2761:</b> README.md modified & apiKey added & Retrofit implemented & ApiConstants added & Package name changes & ApiConstants created for much more simpler changes & AppModule for Dependency Injection & WeatherApi.kt interface created for Retrofit connection to direct API </li>
 <li><b>d098005:</b> README.md modified & jCenter() removed cause will for shut down soon & viewBinding and dataBinding enabled & kotlin-kapt applied & Hilt added for Dependency Injection & AppModule created for SingletonComponent(AppScopedDependencyInjection) & apiKey injected (for test right now)</li>
 <li><b>553cce7:</b> Initial Commit </li>
 </ul>
