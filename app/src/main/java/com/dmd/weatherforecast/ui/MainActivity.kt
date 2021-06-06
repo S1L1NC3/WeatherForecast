@@ -1,23 +1,18 @@
 package com.dmd.weatherforecast.ui
 
-import android.Manifest
 import android.annotation.SuppressLint
 import android.content.pm.PackageManager
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.app.ActivityCompat
 import androidx.databinding.DataBindingUtil
-import androidx.lifecycle.ViewModelProvider
 import com.dmd.weatherforecast.ApiConstants
 import com.dmd.weatherforecast.R
-import com.dmd.weatherforecast.data.WeatherRepository
 import com.dmd.weatherforecast.databinding.ActivityMainBinding
 import com.dmd.weatherforecast.util.PermissionUtil
 import com.dmd.weatherforecast.util.TimeUtil
