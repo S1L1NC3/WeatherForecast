@@ -17,5 +17,17 @@ object  ApiConstants {
     const val DAILY = "daily"
     const val LANG = "lang"
     const val API_KEY = "a7f0041b1021764838511ab92d7b4872"
+    const val DIVIDER = "/"
+    const val DIVIDER_ADD_INDEX = 1
+    const val CLOUDS = "Clouds"
+    const val RAIN = "Rain"
+    const val SNOW = "Snow"
+    const val CLEAR = "Clear"
+    const val PATTERN = "EE dd LL"
+    const val TODAY = "Today"
+    const val TOMORROW = "Tomorrow"
+    const val DEFAULT_PLUS_DAYS = 0
+    const val TOMORROW_PLUS_DAYS = 1
+    const val PERMISSION_LOCATION_REQUEST_CODE = 111
 
 }

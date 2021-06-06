@@ -11,5 +11,5 @@ class WeatherRepository @Inject constructor(private var api: WeatherApi) {
     @Named("apiKey")
     lateinit var apiKey: String //DI used to get apiKey
 
-    suspend fun testApiCall() = api.testUrl(apiKey,"33.44","94.04","","","")
+    suspend fun testApiCall(lat: String, lon: String) = api.testUrl(apiKey,lat,lon,"","","")
 }

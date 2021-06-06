@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hava Durumu</string>
+    <string name="permission_warning">Gerçekten mi? Bu izni vermen gerekiyor</string>
+    <string name="some_error_happened">Bir Hata Meydana Geldi</string>
+</resources>

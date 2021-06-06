@@ -58,9 +58,14 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$coroutine_version"
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:$coroutine_version"
     implementation "androidx.activity:activity-ktx:1.2.3"
-    def lifecycleVersion = '2.2.0'
-    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion"
-    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycleVersion"
+
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:$glide_version"
+
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version" //Lifecycle added
+    kapt "androidx.lifecycle:lifecycle-compiler:$lifecycle_version" //Lifecycle added
+
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:$swipe_refresh_layout_version") //SwipeRefreshLayout added for pull to refresh
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'

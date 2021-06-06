@@ -2,12 +2,11 @@ package com.dmd.weatherforecast.di
 
 import com.dmd.weatherforecast.ApiConstants
 import com.dmd.weatherforecast.api.WeatherApi
-import com.dmd.weatherforecast.data.WeatherRepository
-import dagger.Component
+import com.dmd.weatherforecast.util.PermissionUtil
+import com.dmd.weatherforecast.util.TimeUtil
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
-import dagger.hilt.android.components.ActivityComponent
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -28,6 +27,13 @@ object AppModule {
     @Provides
     fun provideBaseUrl() = ApiConstants.BASE_URL
 
+    @Singleton
+    @Provides
+    fun provideTimeUtil() = TimeUtil()
+
+    @Singleton
+    @Provides
+    fun providePermissionUtil() = PermissionUtil()
 
     @Provides
     @Singleton
