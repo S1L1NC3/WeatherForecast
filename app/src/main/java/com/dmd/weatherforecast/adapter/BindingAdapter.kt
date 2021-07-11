@@ -1,7 +1,6 @@
 package com.dmd.weatherforecast.adapter
 
 import android.widget.ImageView
-import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
@@ -37,15 +36,5 @@ object BindingAdapter {
         imageView.apply {
             Glide.with(imageView.context).load(drawable).into(imageView)
         }
-    }
-
-    @JvmStatic
-    @BindingAdapter("app:arrangeWindSpeed")
-    fun setArrangeWindSpeed(textView: TextView, daily: Daily){
-        val valueToArrange = "${textView.resources.getString(R.string.wind_speed)} : ${daily.wind_speed}"
-        textView.apply {
-            text = valueToArrange
-        }
-
     }
 }

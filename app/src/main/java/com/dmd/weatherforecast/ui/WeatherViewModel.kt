@@ -1,12 +1,13 @@
 package com.dmd.weatherforecast.ui
 
 import android.util.Log
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.*
+import com.dmd.weatherforecast.api.WeatherApi
 import com.dmd.weatherforecast.data.WeatherRepository
+import com.dmd.weatherforecast.models.Daily
 import com.dmd.weatherforecast.models.WeatherResponse
+import dagger.assisted.Assisted
+import dagger.assisted.AssistedInject
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject

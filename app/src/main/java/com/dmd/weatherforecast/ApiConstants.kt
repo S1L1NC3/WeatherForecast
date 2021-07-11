@@ -23,7 +23,7 @@ object  ApiConstants {
     const val RAIN = "Rain"
     const val SNOW = "Snow"
     const val CLEAR = "Clear"
-    const val PATTERN = "EEEE\tdd-LL-yyyy"
+    const val PATTERN = "EE dd LL"
     const val TODAY = "Today"
     const val TOMORROW = "Tomorrow"
     const val DEFAULT_PLUS_DAYS = 0
